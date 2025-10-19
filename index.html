@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NotebookLM Video Overview - PhonetiCore Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <h1>📚 NotebookLM Overview</h1>
+            </div>
+            <button class="menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <!-- Main video feed container -->
+        <div class="video-feed" id="videoFeed">
+            <!-- Video cards will be dynamically inserted here -->
+        </div>
+
+        <!-- Navigation controls -->
+        <div class="nav-controls">
+            <button class="nav-btn nav-up" id="navUp" aria-label="Previous video">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+            <button class="nav-btn nav-down" id="navDown" aria-label="Next video">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Video progress indicator -->
+        <div class="progress-indicator" id="progressIndicator"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
